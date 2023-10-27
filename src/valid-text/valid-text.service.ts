@@ -6,9 +6,9 @@ export class ValidTextService {
     const regex = /^[A-Z]{3}-\d{5}-\d{3}-\d$/;
     const isValid = regex.test(text);
     if (isValid) {
-      return 'Su PDF ha sido procesado correctamente. ¡Felicidades!';
+      return 'El dato ha sido procesado correctamente. ¡Felicidades!';
     } else {
-      return 'Revise su PDF, que no esté cifrado, que no contenga imágenes y que la fuente del texto no sea privada.';
+      return 'Revise el formato, recuerde tiene que ser de tipo "AAA-23214-767-1"';
     }
   }
 }

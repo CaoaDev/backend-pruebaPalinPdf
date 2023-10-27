@@ -48,20 +48,20 @@ POST /validText
 
 Cuerpo de la solicitud (ejemplo):
 
-{
-  "text": "ABC-12345-678-9"
-}
+	{
+	  "text": "ABC-12345-678-9"
+	}
 
 Respuesta exitosa (ejemplo):
 
-{
-  "message": "Su PDF ha sido procesado correctamente. ¡Felicidades!"
-}
+	{
+	  "message": "El dato ha sido procesado correctamente. ¡Felicidades!"
+	}
 
 Respuesta de error (ejemplo):
 
-{
-  "message": "Revise su PDF, que no esté cifrado, que no contenga imágenes y que la fuente del texto no sea privada."
-}
+	{
+	  "message": "Revise el formato, recuerde tiene que ser de tipo "AAA-23214-767-1""
+	}
 
 Esta documentación básica describe el endpoint, sus parámetros, respuestas, y cómo usarlo.
