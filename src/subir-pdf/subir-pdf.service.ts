@@ -8,7 +8,9 @@ export class SubirPdfService {
       const pdfData = await pdfParse(buffer);
       return pdfData;
     } catch (err) {
-      throw new BadRequestException('El PDF no pudo ser procesado');
+      throw new BadRequestException(
+        'El PDF no pudo ser procesado verifique que si pdf no este corrupto, tenga imagenes, fuentes privadas, tambien que no este protegido o cifrado',
+      );
     }
   }
 }

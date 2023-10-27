@@ -4,6 +4,6 @@ import { SubirPdfController } from './subir-pdf.controller';
 
 @Module({
   providers: [SubirPdfService],
-  controllers: [SubirPdfController]
+  controllers: [SubirPdfController],
 })
 export class SubirPdfModule {}
